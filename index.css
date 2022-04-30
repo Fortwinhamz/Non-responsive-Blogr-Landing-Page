@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.section{
+    background: url(/images/bg-pattern-intro-desktop.svg) hsl(13, 100%, 72%);
+    background-position: center;
+    background-size:cover;
+    padding: 40px 0;
+    border-bottom-left-radius: 100px;
+    
+}
+
+/* .section .navbar{
+    /* padding: 10px 50px  0; */
+
+
+.section .navbar ul{
+    padding:0 100px 0 ;
+    display: flex;
+    flex-direction: row;
+}
+
+.section .navbar ul li{
+    padding-left: 35px;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.section .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 19px;
+    text-align: center;
+    align-items: center;
+}
+
+.section .navbar ul li a:hover{
+    padding: 10px 25px;
+    background-color: #fff;
+    color: hsl(13, 100%, 72%);
+    transition: .4s all ease-in-out;
+    border-radius: 50px;
+}
+.main{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
+.section .navbar ul li .main:hover{
+    color: #fff;
+    background: hsl(13, 100%, 72%);
+    padding: 0;
+}
+
+
+.section .navbar ul li .side{
+    margin-left: 750px;
+}
+
+.section .text{
+    align-items: center;
+    color: #fff;
+    /* max-width: 00px; */
+    margin: 100px;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-right: auto;
+    padding: 40px;
+    /* border: 3px solid red; */
+    text-align: center;
+}
+
+.section .text h1{
+    font-size: 60px;
+}
+
+
+.section .text p{
+    padding-top: 25px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.links{
+    margin: 30px;
+}
+.section .text a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: .6px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    align-items: center;
+    background:transparent;
+    transition: .4s all ease-in-out;
+    border-radius: 50px;
+}
+
+.section .text a.start , .section .text a:hover {
+    background-color: #fff;
+    color:hsl(13, 100%, 72%);
+    font-weight: 600;
+}
+
+/* Design Section */
+
+/* Colors hsl(237, 17%, 21%) and hsl(237, 23%, 32%) */
+.design{
+     background: url(/images/illustration-editor-desktop.svg);
+    background-position: right;
+    margin: 130px 0;
+    background-repeat: no-repeat;
+}
+.design_heading{
+    color: hsl(237, 17%, 21%);
+    text-align: center;
+    font-size: 38px;
+    
+}
+
+.design_main{
+    max-width: 600px;
+    margin: 50px 190px;
+}
+.row1{
+    margin: 60px;
+}
+.row1 h2{
+    color: hsl(208, 49%, 24%);
+    font-size: 28px;
+    margin-bottom: 10px;
+    /* max-height: 500px; */
+}
+
+.row1 p{
+    color: hsl(237, 23%, 32%);
+    font-size: 19px;
+    
+    line-height: 30px;
+   
+}
+.infrastructure{
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    padding: 50px;
+    height: 500px;
+    background: url(/images/bg-pattern-circles.svg), hsl(237, 23%, 32%) ;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-size:contain;
+    /* background-position: calc(10%); */
+}
+
+.row2{
+    align-content: center;
+    width: 600px;
+    
+    margin-right: 400px;
+    color: #fff;
+    margin-top: 200px;
+  
+}
+
+.row2 p{
+    font-weight: 400;
+    width: 500px;
+}
+
+/* Usage Section */
+
+.main_usage{
+    /* max-width: 600px; */
+    display:flex;
+    margin-top: 170px;
+}
+
+.row3{
+    margin: 60px;
+    width: 500px;
+}
+.row3 h2{
+    color: hsl(208, 49%, 24%);
+}
+
+.usage_sect{
+    margin-top: 170px;
+}
+.row1 h3{
+    color: hsl(208, 49%, 24%);
+    font-size: 28px;
+    margin-bottom: 10px;
+    /* max-height: 500px; */
+}
+
+.row3 p{
+    color: hsl(237, 23%, 32%);
+    font-size: 17px;
+    line-height: 26px;
+}
+
+
+/* Footer Section */
+
+#main_footer{
+    border-top-right-radius: 150px;
+    background-color: hsl(240, 10%, 16%);
+    color: #fff;
+    display: flex;
+}
+
+.footer_texts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 130px;
+    /* justify-content: space-around; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row4{
+    margin: 50px;
+}
+
+.row4 li{
+    list-style: none;
+    margin: 10px;
+}
+
+.row4 li a{
+    color: hsl(240, 2%, 79%);
+    text-decoration: none;
+}
+
+.row4 li a.top{
+    color: #fff;
+    margin-top: 20px 0;
+    font-weight: 700;
+}
